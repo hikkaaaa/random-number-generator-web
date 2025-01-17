@@ -1,0 +1,69 @@
+body{
+    background-color: #f3f3f3;
+    text-align: center;
+    font-family: "quicksand", "raleway", sans-serif;
+}
+
+.main-container{
+    border: 3px rgb(68, 145, 222) solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container{
+    border: 2px black solid;
+    margin: 25px 0; 
+}
+
+#generate{
+    width: 60%; 
+    background-color: rgb(68, 145, 222);
+    border: 0px; 
+    border-radius: 15px;
+    padding: 3px;
+}
+
+#generate:hover{
+    background-color: rgb(51, 110, 170);
+    color:rgb(179, 217, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#c{
+    font-family: "quicksand";
+    font-weight: bolder;
+    font-size: 20px;
+    color: white; 
+}
+
+#chooser{
+    font-weight: bolder;
+    color:rgb(51, 110, 170);
+    border: 0px;
+}
+
+#random{
+    display: block;
+    height: 150px; 
+    width: 150px;
+    border-radius: 15px;
+    border: 1px #f3f3f3 solid; 
+}
+
+input{
+    border: 1.5px rgb(51, 110, 170) solid;
+    border-radius: 8px;
+}
+
+#random_number{
+    font-size: 5em;
+    font-weight: bolder;
+}
